@@ -1,0 +1,11 @@
+{
+    //编译根目录下所有文件
+    "include": ["./src/**/*"],
+    "exclude":["./node_modules/"],
+    //编译选项
+    "compilerOptions": {
+        "outDir": "./dist",//编译后文件的输出目录为根目录下的dist
+        "target": "es6",// 编译为es6版本的js
+        "noImplicitAny": true
+    }
+}
